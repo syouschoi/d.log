@@ -1,5 +1,4 @@
-Select example:
-
-```js
-<Select  />
+Basic :
+```jsx
+<Select></Select>
 ```
