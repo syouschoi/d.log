@@ -15,13 +15,11 @@ const Select = ({ optionData, ...props }) => (
 );
 
 Select.propTypes = {
-  // optionData: PropTypes.oneOfType([PropTypes.object]).isRequired,
-  // optionData: PropTypes.arrayOf(PropTypes.object).isRequired,
   optionData: PropTypes.arrayOf(
     PropTypes.shape({
       value: PropTypes.string,
       text: PropTypes.string.isRequried,
     }),
-  ).isRequired,
+  ),
 };
 export default Select;
