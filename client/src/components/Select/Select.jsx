@@ -6,11 +6,12 @@ const { Option } = AntdSelect;
 
 const Select = ({ data, ...rest }) => (
   <AntdSelect {...rest}>
-    {data.map((option) => (
-      <Option key={option.value} value={option.value}>
-        {option.text}
-      </Option>
-    ))}
+    {data.length &&
+      data.map((option) => (
+        <Option key={option.value} value={option.value}>
+          {option.text}
+        </Option>
+      ))}
   </AntdSelect>
 );
 

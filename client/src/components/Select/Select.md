@@ -1,4 +1,4 @@
 Basic :
 ```jsx
-<Select data="" ></Select>
+<Select data={} rest={} ></Select>
 ```
