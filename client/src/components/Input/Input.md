@@ -1,4 +1,0 @@
-Basic :
-```jsx
-<Input></Input>
-```
