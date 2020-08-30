@@ -1,7 +1,7 @@
-import {InputProps as AntInputProps} from 'antd/lib/input';
+import { InputProps as AntInputProps } from 'antd/lib/input';
 
 export type CustomProps = {
-  ref: React.RefObject<HTMLInputElement>;
+  // ref: React.RefObject<HTMLInputElement>;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   autoFocus?: boolean;
 };
