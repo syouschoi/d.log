@@ -2,6 +2,7 @@ Input example:
 
 ```jsx
 import React, { useState, useRef } from 'react';
+import { Input } from '../../components/';
 const inputRef = useRef(null);
 const [value, setValue] = useState('');
 const handleChange = (e) => {
